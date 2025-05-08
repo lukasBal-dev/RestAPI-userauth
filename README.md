@@ -23,9 +23,13 @@ To register a new user, send a POST request with the following JSON body:
 
 Response:
 
-On success: "message": "User registered successfully"
+On success: 
 
-If the username already exists: "error": "Username already exists"
+    "message": "User registered successfully"
+
+If the username already exists: 
+
+    "error": "Username already exists"
 
 2. Login User
 
@@ -40,9 +44,16 @@ To log in, send a POST request with the following JSON body:
 
 Response:
 
-On success: "success": "User logged in"
+On success: 
+        
+        "success": "User logged in"
 
-If the username does not exist or the password is incorrect: "error": "Wrong password" or "error": "No user found!"
+If the username does not exist or the password is incorrect: 
+
+    "error": "Wrong password" 
+or
+
+    "error": "No user found!"
 
 Supported Methods
 
