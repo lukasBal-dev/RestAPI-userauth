@@ -1,0 +1,3 @@
+C:/Users/lukas/source/repos/CMakeProject2/out/build/x64-debug/CMakeFiles/RestAPI-userauth.dir
+C:/Users/lukas/source/repos/CMakeProject2/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/lukas/source/repos/CMakeProject2/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
