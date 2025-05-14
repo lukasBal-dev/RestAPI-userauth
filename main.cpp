@@ -98,14 +98,14 @@ void loginUser(json::object& jsonObject, http_request request) {
             }
             else {
                 json::value response;
-                response[U("error")] = json::value::string(U("Wrong password"));
+                response[U("error")] = json::value::string(U("Wrong password or username"));
                 request.reply(web::http::status_codes::Conflict, response);  // 409 Conflict
                 return;
             }
         }
         else {
             json::value response;
-            response[U("error")] = json::value::string(U("No user found! Maybe you are trying to register?"));
+            response[U("error")] = json::value::string(U("Wrong password or username"));
             request.reply(web::http::status_codes::Conflict, response);  // 409 Conflict
         }
 
