@@ -50,10 +50,7 @@ On success:
 
 If the username does not exist or the password is incorrect: 
 
-    "error": "Wrong password" 
-or
-
-    "error": "No user found!"
+    "error": "Wrong password or username" 
 
 Supported Methods
 
